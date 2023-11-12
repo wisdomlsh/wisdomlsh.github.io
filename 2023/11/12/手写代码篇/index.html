@@ -16,22 +16,22 @@
   <meta name="author" content="lishuo">
   <meta name="keywords" content="">
   
-    <meta name="description" content="亲爱的胡美轩你是最美的">
+    <meta name="description" content="面试手写常见代码题instanceof123456789const _instanceof &#x3D; (left, right) &#x3D;&gt; &amp;#123;  const  proto &#x3D; Object.getPrototypeOf(left)  const  prototype &#x3D; right.prototype  while(proto) &amp;#123;    if(proto &#x3D;&#x3D;&#x3D; prototyp">
 <meta property="og:type" content="article">
-<meta property="og:title" content="亲爱的">
-<meta property="og:url" content="https://wisdomls.top/2023/11/11/honey/index.html">
+<meta property="og:title" content="手写代码篇">
+<meta property="og:url" content="https://wisdomls.top/2023/11/12/%E6%89%8B%E5%86%99%E4%BB%A3%E7%A0%81%E7%AF%87/index.html">
 <meta property="og:site_name" content="weblishuo">
-<meta property="og:description" content="亲爱的胡美轩你是最美的">
+<meta property="og:description" content="面试手写常见代码题instanceof123456789const _instanceof &#x3D; (left, right) &#x3D;&gt; &amp;#123;  const  proto &#x3D; Object.getPrototypeOf(left)  const  prototype &#x3D; right.prototype  while(proto) &amp;#123;    if(proto &#x3D;&#x3D;&#x3D; prototyp">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-11-11T14:35:43.000Z">
-<meta property="article:modified_time" content="2023-11-11T14:59:32.405Z">
+<meta property="article:published_time" content="2023-11-12T03:18:18.000Z">
+<meta property="article:modified_time" content="2023-11-12T06:23:28.028Z">
 <meta property="article:author" content="lishuo">
-<meta property="article:tag" content="前端 react fiber">
+<meta property="article:tag" content="手写 javascript">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>亲爱的 - weblishuo</title>
+  <title>手写代码篇 - weblishuo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -226,7 +226,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="亲爱的"></span>
+            <span id="subtitle" data-typed-text="手写代码篇"></span>
           
         </div>
 
@@ -237,8 +237,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-11-11 22:35" pubdate>
-          2023年11月11日 晚上
+        <time datetime="2023-11-12 11:18" pubdate>
+          2023年11月12日 上午
         </time>
       </span>
     
@@ -249,7 +249,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          11 字
+          2.2k 字
         
       </span>
     
@@ -260,7 +260,7 @@
         
         
         
-          1 分钟
+          19 分钟
         
       </span>
     
@@ -305,12 +305,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">亲爱的</h1>
+            <h1 id="seo-header">手写代码篇</h1>
             
               <p class="note note-info">
                 
                   
-                    本文最后更新于：15 小时前
+                    本文最后更新于：几秒前
                   
                 
               </p>
@@ -318,7 +318,37 @@
             
               <div class="markdown-body">
                 
-                <h3 id="亲爱的"><a href="#亲爱的" class="headerlink" title="亲爱的"></a>亲爱的</h3><p>胡美轩你是最美的</p>
+                <h2 id="面试手写常见代码题"><a href="#面试手写常见代码题" class="headerlink" title="面试手写常见代码题"></a>面试手写常见代码题</h2><h3 id="instanceof"><a href="#instanceof" class="headerlink" title="instanceof"></a>instanceof</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">_instanceof</span> = (<span class="hljs-params">left, right</span>) =&gt; &#123;<br>  <span class="hljs-keyword">const</span>  proto = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">getPrototypeOf</span>(left)<br>  <span class="hljs-keyword">const</span>  prototype = right.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span><br>  <span class="hljs-keyword">while</span>(proto) &#123;<br>    <span class="hljs-keyword">if</span>(proto === prototype) <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span><br>    proto = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">getPrototypeOf</span>(left)<br>  &#125;<br>  <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span><br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="new"><a href="#new" class="headerlink" title="new"></a>new</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">_new</span> = (<span class="hljs-params">fn</span>) =&gt; &#123;<br>  <span class="hljs-keyword">const</span> obj = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">create</span>(fn.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span>)<br>  <span class="hljs-keyword">const</span> result = fn.<span class="hljs-title function_">apply</span>(obj, [...<span class="hljs-variable language_">arguments</span>])<br>  <span class="hljs-keyword">const</span> result1  = result &amp;&amp; (<span class="hljs-keyword">typeof</span> result === <span class="hljs-string">&#x27;object&#x27;</span> || <span class="hljs-keyword">typeof</span> result === <span class="hljs-string">&#x27;function&#x27;</span>)<br>  <span class="hljs-keyword">return</span> result1 ? result1 : obj<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="Object-create"><a href="#Object-create" class="headerlink" title="Object.create"></a>Object.create</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">create</span> = (<span class="hljs-params">fn</span>) =&gt; &#123;<br>  <span class="hljs-keyword">function</span> <span class="hljs-title function_">F</span> () &#123;&#125;<br>  F.<span class="hljs-property"><span class="hljs-keyword">prototype</span></span> = fn<br>  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title function_">F</span>()<br>&#125;<br><br></code></pre></td></tr></table></figure>
+
+<h3 id="深拷贝"><a href="#深拷贝" class="headerlink" title="深拷贝"></a>深拷贝</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">deepclone</span> = (<span class="hljs-params">obj</span>) =&gt; &#123;<br>  <span class="hljs-keyword">if</span>(obj &amp;&amp; <span class="hljs-keyword">typeof</span> obj !== <span class="hljs-string">&#x27;object&#x27;</span>) <span class="hljs-keyword">return</span> obj<br>  <span class="hljs-keyword">const</span> newobj = <span class="hljs-title class_">Array</span>.<span class="hljs-title function_">isArray</span>(obj) ? [] : &#123;&#125;<br>  <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> key <span class="hljs-keyword">in</span> obj)&#123;<br>    <span class="hljs-keyword">if</span>(obj.<span class="hljs-title function_">hasOwnProperty</span>(key)) &#123;<br>      newObj[key] = <span class="hljs-keyword">typeof</span> obj[key] === <span class="hljs-string">&#x27;object&#x27;</span> ? <span class="hljs-title function_">deepclone</span>(obj[key]) : obj[key]<br>    &#125;<br>  &#125;<br><span class="hljs-keyword">return</span> newobj<br>&#125;<br><br></code></pre></td></tr></table></figure>
+
+<h3 id="防抖函数"><a href="#防抖函数" class="headerlink" title="防抖函数"></a>防抖函数</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">debounce</span> = (<span class="hljs-params">fn,delay</span>) =&gt; &#123;<br>  <span class="hljs-keyword">let</span> timer<br>  <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) &#123;<br>    <span class="hljs-keyword">let</span> that = <span class="hljs-variable language_">this</span><br>    <span class="hljs-keyword">let</span> args = [...<span class="hljs-variable language_">arguments</span>]<br>    <span class="hljs-keyword">if</span>(!timer)&#123;<br>      timer = <span class="hljs-built_in">setTimeout</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>        fn.<span class="hljs-title function_">apply</span>(that, args)<br>      &#125;, delay)<br>    &#125;<br>    <span class="hljs-built_in">clearTimeout</span>(timer)<br>  &#125;<br>&#125;<br><br></code></pre></td></tr></table></figure>
+
+<h3 id="节流函数"><a href="#节流函数" class="headerlink" title="节流函数"></a>节流函数</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">throttle</span> = (<span class="hljs-params">fn,delay</span>) =&gt; &#123;<br>  <span class="hljs-keyword">let</span> date = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>()<br><br>  <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) &#123;<br>    <span class="hljs-keyword">let</span> that = <span class="hljs-variable language_">this</span><br>    <span class="hljs-keyword">let</span> nowTime = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>()<br>    <span class="hljs-keyword">if</span>(nowTime - date &gt;= delay) &#123;<br>      date = nowTime<br>    fn.<span class="hljs-title function_">apply</span>(that, <span class="hljs-variable language_">arguments</span>)<br><br>    &#125;<br>  &#125;<br>  <br>&#125;<br><br></code></pre></td></tr></table></figure>
+
+<h3 id="lodash-get"><a href="#lodash-get" class="headerlink" title="lodash.get"></a>lodash.get</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">_get</span> = (<span class="hljs-params">obj, path, defaultValue</span>) =&gt; &#123;<br>  <span class="hljs-keyword">if</span>(obj &amp;&amp; <span class="hljs-keyword">typeof</span> obj !== <span class="hljs-string">&#x27;object&#x27;</span>)  <span class="hljs-keyword">return</span> defaultValue<br>  <span class="hljs-keyword">if</span>(!<span class="hljs-title class_">Array</span>.<span class="hljs-title function_">isArray</span>(path)) &#123;<br>    path = path.<span class="hljs-title function_">split</span>(<span class="hljs-string">&#x27;.&#x27;</span>).<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">v</span>) =&gt;</span> v.<span class="hljs-title function_">includes</span>(<span class="hljs-string">&#x27;[&#x27;</span>) ? v.<span class="hljs-title function_">split</span>(<span class="hljs-regexp">/\[\]/</span>) : v).<span class="hljs-title function_">filter</span>(<span class="hljs-title class_">Boolean</span>).<span class="hljs-title function_">flat</span>()<br>  &#125;<br>  <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> key <span class="hljs-keyword">of</span> path) &#123;<br>    <span class="hljs-keyword">if</span>(obj[key]) &#123;<br>      obj = obj[key]<br>    &#125; <span class="hljs-keyword">else</span> &#123;<br>      <span class="hljs-keyword">return</span> defaultValue<br>    &#125;<br>  &#125;<br>  <span class="hljs-keyword">return</span> obj<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="数组乱序输出"><a href="#数组乱序输出" class="headerlink" title="数组乱序输出"></a>数组乱序输出</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs javascript">cosnt arrRandom = <span class="hljs-function">(<span class="hljs-params">arr</span>) =&gt;</span> &#123;<br>  <span class="hljs-keyword">const</span> len = arr.<span class="hljs-property">length</span><br>  <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; len; i++) &#123;<br>    cosnt random = <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">floor</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() * i - i - <span class="hljs-number">1</span>) + i;<br>    [arr[i], arr[random]] = [arr[random], [arr[i]]]<br>  &#125;<br>  <span class="hljs-keyword">return</span> arr<br>&#125;<br><br></code></pre></td></tr></table></figure>
+
+<h3 id="数组去重"><a href="#数组去重" class="headerlink" title="数组去重"></a>数组去重</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">unique</span> = (<span class="hljs-params">arr</span>) =&gt; &#123;<br>  <span class="hljs-keyword">if</span>(!<span class="hljs-title class_">Array</span>.<span class="hljs-title function_">isArray</span>(arr)) <span class="hljs-keyword">return</span><br>  <span class="hljs-keyword">const</span> arr1 = []<br>  <span class="hljs-keyword">const</span> map = &#123;&#125;<br>  <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; arr.<span class="hljs-property">length</span>; i++) &#123;<br>     <span class="hljs-keyword">if</span>(!map.<span class="hljs-title function_">hasOwnProperty</span>(arr[i]))&#123;<br>      map[arr[i]] = <span class="hljs-number">1</span><br>      arr1.<span class="hljs-title function_">push</span>(arr[i])<br>     &#125;<br>  &#125;<br>  <span class="hljs-keyword">return</span> arr1<br>&#125;<br><br></code></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 
               </div>
@@ -331,7 +361,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E5%89%8D%E7%AB%AF-react-fiber/" class="print-no-link">#前端 react fiber</a>
+        <a href="/tags/%E6%89%8B%E5%86%99-javascript/" class="print-no-link">#手写 javascript</a>
       
     </div>
   
@@ -343,8 +373,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>亲爱的</div>
-      <div>https://wisdomls.top/2023/11/11/honey/</div>
+      <div>手写代码篇</div>
+      <div>https://wisdomls.top/2023/11/12/手写代码篇/</div>
     </div>
     <div class="license-meta">
       
@@ -356,7 +386,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年11月11日</div>
+          <div>2023年11月12日</div>
         </div>
       
       
@@ -388,15 +418,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/11/12/%E6%89%8B%E5%86%99%E4%BB%A3%E7%A0%81%E7%AF%87/" title="手写代码篇">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">手写代码篇</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2023/11/11/honey/" title="亲爱的">
+                        <span class="hidden-mobile">亲爱的</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
